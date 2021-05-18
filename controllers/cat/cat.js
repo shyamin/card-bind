@@ -7,7 +7,7 @@ let {
     who = 'You',
     width = 400,
     height = 500,
-    color = 'Pink',
+    color = 'pink',
     format = 'jpeg',
     size = 100,
 } = argv;
@@ -42,7 +42,7 @@ module.exports = {
                 return reject({
                     success: 0,
                     error: (error.message) ? error.message : JSON.stringify(error),
-                    code: 409
+                    code: 420
                 });
             }
         });
